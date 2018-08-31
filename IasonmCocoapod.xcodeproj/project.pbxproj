@@ -8,12 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		8F13BAAD2139538D009DB511 /* IasonmCocoapod.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F13BAAB2139538D009DB511 /* IasonmCocoapod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F13BAB4213953A9009DB511 /* IasonmCocoapod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13BAB3213953A9009DB511 /* IasonmCocoapod.swift */; };
+		8F13BABC21395401009DB511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13BABB21395401009DB511 /* AppDelegate.swift */; };
+		8F13BABE21395401009DB511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13BABD21395401009DB511 /* ViewController.swift */; };
+		8F13BAC121395401009DB511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F13BABF21395401009DB511 /* Main.storyboard */; };
+		8F13BAC321395403009DB511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F13BAC221395403009DB511 /* Assets.xcassets */; };
+		8F13BAC621395403009DB511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F13BAC421395403009DB511 /* LaunchScreen.storyboard */; };
+		8F13BACB2139548B009DB511 /* IasonmCocoapod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F13BAA82139538D009DB511 /* IasonmCocoapod.framework */; };
+		8F13BACC2139548B009DB511 /* IasonmCocoapod.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F13BAA82139538D009DB511 /* IasonmCocoapod.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F13BACD2139548B009DB511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F13BA9F2139538D009DB511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F13BAA72139538D009DB511;
+			remoteInfo = IasonmCocoapod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F13BACF2139548B009DB511 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F13BACC2139548B009DB511 /* IasonmCocoapod.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8F13BAA82139538D009DB511 /* IasonmCocoapod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IasonmCocoapod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F13BAAB2139538D009DB511 /* IasonmCocoapod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IasonmCocoapod.h; sourceTree = "<group>"; };
 		8F13BAAC2139538D009DB511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F13BAB3213953A9009DB511 /* IasonmCocoapod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IasonmCocoapod.swift; sourceTree = "<group>"; };
+		8F13BAB921395401009DB511 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F13BABB21395401009DB511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F13BABD21395401009DB511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F13BAC021395401009DB511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F13BAC221395403009DB511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F13BAC521395403009DB511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F13BAC721395403009DB511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +64,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F13BAB621395401009DB511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F13BACB2139548B009DB511 /* IasonmCocoapod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				8F13BAAA2139538D009DB511 /* IasonmCocoapod */,
+				8F13BABA21395401009DB511 /* Demo */,
 				8F13BAA92139538D009DB511 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				8F13BAA82139538D009DB511 /* IasonmCocoapod.framework */,
+				8F13BAB921395401009DB511 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +98,22 @@
 			children = (
 				8F13BAAB2139538D009DB511 /* IasonmCocoapod.h */,
 				8F13BAAC2139538D009DB511 /* Info.plist */,
+				8F13BAB3213953A9009DB511 /* IasonmCocoapod.swift */,
 			);
 			path = IasonmCocoapod;
+			sourceTree = "<group>";
+		};
+		8F13BABA21395401009DB511 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8F13BABB21395401009DB511 /* AppDelegate.swift */,
+				8F13BABD21395401009DB511 /* ViewController.swift */,
+				8F13BABF21395401009DB511 /* Main.storyboard */,
+				8F13BAC221395403009DB511 /* Assets.xcassets */,
+				8F13BAC421395403009DB511 /* LaunchScreen.storyboard */,
+				8F13BAC721395403009DB511 /* Info.plist */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +148,40 @@
 			productReference = 8F13BAA82139538D009DB511 /* IasonmCocoapod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8F13BAB821395401009DB511 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F13BAC821395403009DB511 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				8F13BAB521395401009DB511 /* Sources */,
+				8F13BAB621395401009DB511 /* Frameworks */,
+				8F13BAB721395401009DB511 /* Resources */,
+				8F13BACF2139548B009DB511 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F13BACE2139548B009DB511 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 8F13BAB921395401009DB511 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8F13BA9F2139538D009DB511 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Iason Michailidis";
 				TargetAttributes = {
 					8F13BAA72139538D009DB511 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					8F13BAB821395401009DB511 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -104,6 +192,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8F13BA9E2139538D009DB511;
 			productRefGroup = 8F13BAA92139538D009DB511 /* Products */;
@@ -111,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				8F13BAA72139538D009DB511 /* IasonmCocoapod */,
+				8F13BAB821395401009DB511 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +213,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F13BAB721395401009DB511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F13BAC621395403009DB511 /* LaunchScreen.storyboard in Resources */,
+				8F13BAC321395403009DB511 /* Assets.xcassets in Resources */,
+				8F13BAC121395401009DB511 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +230,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F13BAB4213953A9009DB511 /* IasonmCocoapod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F13BAB521395401009DB511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F13BABE21395401009DB511 /* ViewController.swift in Sources */,
+				8F13BABC21395401009DB511 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F13BACE2139548B009DB511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F13BAA72139538D009DB511 /* IasonmCocoapod */;
+			targetProxy = 8F13BACD2139548B009DB511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F13BABF21395401009DB511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F13BAC021395401009DB511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F13BAC421395403009DB511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F13BAC521395403009DB511 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8F13BAAE2139538D009DB511 /* Debug */ = {
@@ -259,6 +396,7 @@
 		8F13BAB12139538D009DB511 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -275,7 +413,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jason.IasonmCocoapod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +423,7 @@
 		8F13BAB22139538D009DB511 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -300,7 +440,45 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jason.IasonmCocoapod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F13BAC921395403009DB511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F13BACA21395403009DB511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +501,15 @@
 			buildConfigurations = (
 				8F13BAB12139538D009DB511 /* Debug */,
 				8F13BAB22139538D009DB511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F13BAC821395403009DB511 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F13BAC921395403009DB511 /* Debug */,
+				8F13BACA21395403009DB511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
