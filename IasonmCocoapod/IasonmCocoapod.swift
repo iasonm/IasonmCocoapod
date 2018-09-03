@@ -10,6 +10,10 @@ import Foundation
 
 public class IasonmCocoapod {
     public class func logToConsole(msg: String) {
-        print(msg);
+        if let ver = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") {
+            print("Version: \(ver)\n\(msg)")
+        } else {
+            print(msg);            
+        }
     }
 }
